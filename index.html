@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    <!--  NAVBAR  -->
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
@@ -39,13 +40,13 @@
                         <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#relacionadas">Quienes Somos</a>
+                        <a class="nav-link text-light" href="#quienes">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#suscribete">Destacados</a>
+                        <a class="nav-link text-light" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light contacto" href="#">Contacto</a>
+                        <a class="nav-link text-light contacto" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -53,7 +54,7 @@
 
     </nav>
 
-    <!--CARRUSEL-->
+    <!--  CARRUSEL  -->
     <div id="carouselExample" class="carousel slide pb-2">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -76,10 +77,10 @@
         </button>
     </div>
 
-    <!-- ARTICLE -->
+    <!--  ARTICLE  -->
 
     <article class="mb-5">
-        <h2 class="text-center text-light my-5">¿QUIÉNES SOMOS?</h2>
+        <h2 class="text-center text-light my-5" id="quienes">¿QUIÉNES SOMOS?</h2>
         <hr class="border border-2 col-8 mb-5">
 
         <row class="row justify-content-center mx-0">
@@ -135,10 +136,10 @@
 
     </article>
 
-    <!--  DESTACADOS / TARJETAS -->
+    <!--  DESTACADOS / TARJETAS  -->
 
     <section class="pt-2 mb-5">
-        <h2 class="text-center text-light my-5">DESTACADOS</h2>
+        <h2 class="text-center text-light my-5" id="destacados">DESTACADOS</h2>
         <hr class="border border-2 col-11 mb-5">
 
         <row class="row justify-content-center mx-0">
@@ -185,6 +186,51 @@
         </row>
 
     </section>
+
+    <!--  FORMULARIO MENSAJE  -->
+
+    <div class="container">
+        <h2 class="text-center text-light my-5" id="contacto">CONTACTO</h2>
+        <hr class="border border-2 mb-5">
+
+        <form>
+            <div class="row mx-5 justify-content-start">
+                <div class="mb-3 col-6 ps-0">
+                    <label for="nombreusuario" class="text-light form-label">Nombre</label>
+                    <input type="name" class="form-control" id="nombreusuario" aria-describedby="nombre">
+                </div>
+                <div class="mb-3 col-6 pe-0">
+                    <label for="exampleInputEmail1" class="form-label text-light">Correo</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+            </div>
+            <div class="mb-3 mx-5">
+                <label for="asuntomail" class="text-light form-label">Asunto</label>
+                <input type="subject" class="form-control" id="asuntomail">
+            </div>
+            <div class="mb-3 mx-5">
+                <label for="exampleFormControlTextarea1" class="text-light form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+            </div>
+            <button type="submit" class="btn text-light aqua ms-5">Enviar</button>
+
+        </form>
+    </div>
+
+    <!--  FOOTER  -->
+    <div>
+        <footer class="mt-4">
+            <div class="row aqua justify-content-center text-light">
+                <span class="col-6 my-3 fw-bold text-center">VIAJES CHILE</span>
+                <div class="col-6 my-3 text-center">
+                    <a href="www.github.com/" class="text-light"><i class="fa-brands fa-square-github mx-1"></i></a>
+                    <a href="www.linkedin.com/" class="text-light"><i class="fa-brands fa-linkedin mx-1"></i></a>
+                    <a href="www.x.com/" class="text-light"><i class="fa-brands fa-square-twitter mx-1"></i></a>
+                    <a href="www.facebook.com" class="text-light"><i class="fa-brands fa-square-facebook mx-1"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 
 
     <!--

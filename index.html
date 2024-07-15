@@ -23,7 +23,168 @@
 
 <body>
 
-    
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5 text-light" id="logo" href="#"><img id="avion"
+                    src="assets/img/viajes.svg">Viajes Chile</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#relacionadas">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#suscribete">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light contacto" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--CARRUSEL-->
+    <div id="carouselExample" class="carousel slide pb-2">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ARTICLE -->
+
+    <article class="mb-5">
+        <h2 class="text-center text-light my-5">¿QUIÉNES SOMOS?</h2>
+        <hr class="border border-2 col-8 mb-5">
+
+        <row class="row justify-content-center mx-0">
+            <div class="container col-3 mx-2">
+                <div class="aqua justify-content-center text-center">
+                    <i class="fa-solid fa-2x my-1 fa-plane text-light"></i>
+                </div>
+                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Est expedita dolorum
+                    fugiat repellendus
+                    eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis eligendi
+                    quaerat, asperiores sit nulla temporibus.</p>
+
+            </div>
+
+            <div class="container col-3 mx-2">
+                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Est expedita dolorum
+                    fugiat repellendus
+                    eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis eligendi
+                    quaerat, asperiores sit nulla temporibus.</p>
+                <div class="aqua justify-content-center text-center">
+                    <i class="fa-solid fa-2x my-1 fa-mountain text-light"></i>
+                </div>
+
+            </div>
+
+            <div class="container col-3 mx-2">
+                <div class="aqua justify-content-center text-center">
+                    <i class="fa-solid fa-2x my-1 fa-route text-light"></i>
+                </div>
+                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Est expedita dolorum
+                    fugiat repellendus
+                    eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis eligendi
+                    quaerat, asperiores sit nulla temporibus.</p>
+
+            </div>
+        </row>
+
+
+    </article>
+
+    <!--  DESTACADOS / TARJETAS -->
+
+    <section class="pt-2 mb-5">
+        <h2 class="text-center text-light my-5">DESTACADOS</h2>
+        <hr class="border border-2 col-11 mb-5">
+
+        <row class="row justify-content-center mx-0">
+            <!--Tarjeta-->
+            <div class="card aqua col-md-3 mx-3 pb-3 p-0 text-light">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque, hic in
+                        quod iste aliquam id enim praesentium nesciunt, fugit minima ad. Tenetur, reiciendis! Vel
+                        excepturi aliquam exercitationem dolore sapiente.</p>
+                </div>
+            </div>
+            <!--Tarjeta-->
+            <div class="card aqua col-3 mx-3 pb-3 p-0 text-light">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque, hic in
+                        quod iste aliquam id enim praesentium nesciunt, fugit minima ad. Tenetur, reiciendis! Vel
+                        excepturi aliquam exercitationem dolore sapiente.</p>
+                </div>
+            </div>
+            <!--Tarjeta-->
+            <div class="card aqua col-3 mx-3 pb-3 p-0 text-light">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque, hic in
+                        quod iste aliquam id enim praesentium nesciunt, fugit minima ad. Tenetur, reiciendis! Vel
+                        excepturi aliquam exercitationem dolore sapiente.</p>
+                </div>
+            </div>
+            <!--Tarjeta-->
+            <div class="card aqua col-3 mx-3 pb-3 p-0 text-light">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque, hic in
+                        quod iste aliquam id enim praesentium nesciunt, fugit minima ad. Tenetur, reiciendis! Vel
+                        excepturi aliquam exercitationem dolore sapiente.</p>
+                </div>
+            </div>
+        </row>
+
+    </section>
 
 
     <!--

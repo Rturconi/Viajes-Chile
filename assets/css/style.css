@@ -1,5 +1,5 @@
-.color1 {
-    color: aqua;
+.aqua {
+    background-color: aqua;
 }
 
 .fondo {
@@ -13,4 +13,29 @@ body {
     background-color: black;
 }
 
-#avion {width: 2rem; height: auto;}
+.navbar {position: absolute;}
+
+#avion {
+    width: 2rem;
+    height: auto;
+}
+
+.border {
+    margin: auto;
+}
+
+.card-img-top {
+    width: auto;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.card {width: 18%;}
+
+@media (max-width: 575.98px) {
+    .card {
+        width: 80%;
+        margin-bottom: 10%;
+        padding-left: 10%;
+    padding-right: 10%;    }
+}

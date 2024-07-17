@@ -13,10 +13,6 @@ body {
     background-color: black;
 }
 
-.navbar {
-    position: absolute;
-}
-
 #avion {
     width: 2rem;
     height: auto;

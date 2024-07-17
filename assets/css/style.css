@@ -13,7 +13,9 @@ body {
     background-color: black;
 }
 
-.navbar {position: absolute;}
+.navbar {
+    position: absolute;
+}
 
 #avion {
     width: 2rem;
@@ -30,16 +32,35 @@ body {
     object-fit: cover;
 }
 
-.card {width: 18%;}
+.card {
+    width: 18%;
+}
+
+form {
+    margin: auto;
+}
+
+.ftrcnt {
+    margin: auto;
+}
+
+.carimg {
+    height: 100vh;
+    width: 100vw;
+}
 
 @media (max-width: 575.98px) {
     .card {
         width: 80%;
         margin-bottom: 10%;
         padding-left: 10%;
-    padding-right: 10%;    }
+        padding-right: 10%;
+    }
+    .carimg {width: 100vw; height: 50vh;}
+
+    .rowart {margin-top: 5%; }
+
+    .deskicon {display: none;}
+
+    .xsbold {font-weight: bolder;}
 }
-
-form {margin: auto;}
-
-.ftrcnt {margin: auto;}

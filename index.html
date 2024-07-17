@@ -26,18 +26,18 @@
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand ms-5 text-light" id="logo" href="#"><img id="avion"
-                    src="assets/img/viajes.svg">Viajes Chile</a>
+            <a class="navbar-brand ms-md-5 ms-xs-1 text-light" id="logo" href="#">
+                <img id="avion" src="assets/img/viajes.svg">Viajes Chile</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon navbar-dark"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse text-end xsbold me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link text-light" aria-current="page" href="#carouselExample">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#quienes">Quienes Somos</a>
@@ -58,13 +58,13 @@
     <div id="carouselExample" class="carousel slide pb-2">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel1.jpg" class="d-block carimg" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel2.jpg" class="d-block carimg" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                <img src="assets/img/carousel3.jpg" class="d-block carimg" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -79,59 +79,75 @@
 
     <!--  ARTICLE  -->
 
-    <article class="mb-5">
+    <article class="mb-5 ">
         <h2 class="text-center text-light my-5" id="quienes">¿QUIÉNES SOMOS?</h2>
         <hr class="border border-2 col-8 mb-5">
+        <div>
+            <row class="row col-12 justify-content-center mx-0 ">
+                <div class="rowart col-md-3 col-xs-8 mx-md-2 mx-xs-0">
+                    <div class="aqua justify-content-center text-center">
+                        <i class="fa-solid fa-2x my-1 fa-plane text-light"></i>
+                    </div>
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Est expedita dolorum
+                        fugiat repellendus
+                        eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis
+                        eligendi
+                        quaerat, asperiores sit nulla temporibus.</p>
 
-        <row class="row justify-content-center mx-0">
-            <div class="container col-3 mx-2">
-                <div class="aqua justify-content-center text-center">
-                    <i class="fa-solid fa-2x my-1 fa-plane text-light"></i>
-                </div>
-                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Est expedita dolorum
-                    fugiat repellendus
-                    eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis eligendi
-                    quaerat, asperiores sit nulla temporibus.</p>
-
-            </div>
-
-            <div class="container col-3 mx-2">
-                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Est expedita dolorum
-                    fugiat repellendus
-                    eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis eligendi
-                    quaerat, asperiores sit nulla temporibus.</p>
-                <div class="aqua justify-content-center text-center">
-                    <i class="fa-solid fa-2x my-1 fa-mountain text-light"></i>
                 </div>
 
-            </div>
+                <div class="rowart col-md-3 col-xs-8 mx-md-2">
+                    <div class="d-md-none aqua justify-content-center text-center">
+                        <i class="fa-solid fa-2x my-1 fa-mountain text-light"></i>
+                    </div>
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Est expedita dolorum
+                        fugiat repellendus
+                        eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis
+                        eligendi
+                        quaerat, asperiores sit nulla temporibus.</p>
+                    <div class="deskicon aqua justify-content-center text-center">
+                        <i class="fa-solid fa-2x my-1 fa-mountain text-light"></i>
+                    </div>
 
-            <div class="container col-3 mx-2">
-                <div class="aqua justify-content-center text-center">
-                    <i class="fa-solid fa-2x my-1 fa-route text-light"></i>
                 </div>
-                <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Est expedita dolorum
-                    fugiat repellendus
-                    eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis eligendi
-                    quaerat, asperiores sit nulla temporibus.</p>
 
-            </div>
-        </row>
+                <div class="rowart col-md-3 col-xs-8 mx-md-2">
+                    <div class="aqua justify-content-center text-center">
+                        <i class="fa-solid fa-2x my-1 fa-route text-light"></i>
+                    </div>
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Est expedita dolorum
+                        fugiat repellendus
+                        eius, consequatur, quasi perferendis aliquam natus sapiente itaque quae corporis blanditiis
+                        eligendi
+                        quaerat, asperiores sit nulla temporibus.</p>
+
+                </div>
+            </row>
+        </div>
 
 
     </article>
@@ -189,10 +205,9 @@
 
     <!--  FORMULARIO MENSAJE  -->
 
+    <h2 class="text-center text-light my-5" id="contacto" data-bs-custom-class="bg-secondary" data-bs-toggle="tooltip" data-bs-title="Escríbenos algo!">CONTACTO</h2>
+    <hr class="border border-2 col-11 mb-5">
     <div class="container">
-        <h2 class="text-center text-light my-5" id="contacto">CONTACTO</h2>
-        <hr class="border border-2 mb-5">
-
         <form>
             <div class="row mx-5 justify-content-start">
                 <div class="mb-3 col-6 ps-0">
@@ -220,7 +235,7 @@
     <!--  FOOTER  -->
     <div>
         <footer class="mt-4">
-            <div class="row aqua justify-content-center text-light">
+            <div class="row mx-0 aqua justify-content-center text-light">
                 <span class="col-6 my-3 fw-bold text-center">VIAJES CHILE</span>
                 <div class="col-6 my-3 text-center">
                     <a href="www.github.com/" class="text-light"><i class="fa-brands fa-square-github mx-1"></i></a>
@@ -244,11 +259,11 @@
     <i class="fa-solid fa-route"></i> 
     -->
 
-    <!-- SCRIPT BOOTSTRAP  -->
+    <!-- SCRIPT BOOTSTRAP  5.3.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- SCRIPT JQUERY  -->
+    <!-- SCRIPT JQUERY 3.7.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- SCRIPT POPPER  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
